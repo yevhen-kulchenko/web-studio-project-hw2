@@ -1,0 +1,75 @@
+/* :root {
+    --primary-text-color:
+    --secondary-text-color:
+    --title-text-color:
+    --accent-color: color: #2196F3;
+} */
+
+/* colors on page
+color: #2196F3;
+color: #000000;-1
+color: #212121;-11
+color: #757575;-9
+color: #FFFFFF;-4
+color: rgba(255, 255, 255, 0.6);-2
+*/
+/* logo */
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-header {
+    color: #2196F3;
+}
+
+/* nav */
+.list {
+    list-style: none;
+}
+.link {
+    color: #212121;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
+
+/* baner */
+.baner {
+    background-color: #2F303A;;
+}
+.title {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
