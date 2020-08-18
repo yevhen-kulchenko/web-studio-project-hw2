@@ -1,21 +1,23 @@
-/* :root {
-    --primary-text-color:
-    --secondary-text-color:
-    --title-text-color:
-    --accent-color: color: #2196F3;
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --title-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --logo-header-color: #000000;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+/*  --main-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --additional-background-color; #F5F4FA;
 } */
 
-/* colors on page
-color: #2196F3;
-color: #000000;-1
-color: #212121;-11
-color: #757575;-9
-color: #FFFFFF;-4
-color: rgba(255, 255, 255, 0.6);-2
-*/
 /* logo */
 .logo {
-    color: #000000;
+    color: var(--accent-color);
+}
+.logo-header {
+    color: var(--logo-header-color);
     text-decoration: none;
     font-family: Raleway;
     font-style: normal;
@@ -24,8 +26,15 @@ color: rgba(255, 255, 255, 0.6);-2
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.logo-header {
-    color: #2196F3;
+.logo-footer {
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
 /* nav */
@@ -33,7 +42,7 @@ color: rgba(255, 255, 255, 0.6);-2
     list-style: none;
 }
 .link {
-    color: #212121;
+    color: var(--primary-text-color);
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -44,10 +53,10 @@ color: rgba(255, 255, 255, 0.6);-2
 }
 .link:hover,
 .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-.contacts {
-    color: #757575;
+.header-contacts {
+    color: var(--secondary-text-color);
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -56,20 +65,99 @@ color: rgba(255, 255, 255, 0.6);-2
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-.contacts:hover,
-.contacts:focus {
-    color: #2196F3;
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
 }
 
-/* baner */
-.baner {
-    background-color: #2F303A;;
-}
-.title {
-    color: #ffffff;
+/* main */
+.headline {
+    color: var(--title-text-color);;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;}
+.hidden {
+    font-size: 0;
+}
+.title {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text {
+    color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.heading {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-title {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.position-text {
+    color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+/* footer*/
+.address-text {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.footer-contacts {
+    color: var(--footer-contact-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* secondary-background-color */
+.secondary-background {
+    background-color: #2F303A;
 }
