@@ -124,8 +124,6 @@
 .portfolio-button.secondary {
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
-
-
 }
 .hidden {
     font-size: 0;
@@ -212,7 +210,6 @@
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-
 }
 .product-text {
     color: var(--secondary-text-color);
