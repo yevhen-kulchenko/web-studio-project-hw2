@@ -5,12 +5,22 @@
     --accent-color: #2196F3;
     --logo-header-color: #000000;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --button-bg-color: #F5F4FA;
+    --main-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --additional-background-color: #F5F4FA;
 }
 
-/*  --main-background-color: #FFFFFF;
-    --secondary-background-color: #2F303A;
-    --additional-background-color; #F5F4FA;
-} */
+/* background-color */
+.background-color {
+    background-color: var(--main-background-color);
+}
+.secondary-background {
+    background-color: var(--secondary-background-color);
+}
+.additional-background {
+    background-color: var(--additional-background-color);
+}
 
 /* logo */
 .logo {
@@ -98,6 +108,25 @@
     text-align: center;
     letter-spacing: 0.06em;
 }
+.portfolio-button {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+.portfolio-button.primary {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+.portfolio-button.secondary {
+    color: var(--primary-text-color);
+    background-color: var(--button-bg-color);
+
+
+}
 .hidden {
     font-size: 0;
 }
@@ -174,7 +203,28 @@
     color: var(--accent-color);
 }
 
-/* secondary-background-color */
-.secondary-background {
-    background-color: #2F303A;
+/* portfolio-page*/
+.project-title {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+}
+.product-text {
+    color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
 }
