@@ -10,15 +10,15 @@
     --secondary-background-color: #2F303A;
     --additional-background-color: #F5F4FA;
 }
-
-/* background-color */
-.background-color {
+body {
     background-color: var(--main-background-color);
 }
-.secondary-background {
+
+/* background-color */
+.accent {
     background-color: var(--secondary-background-color);
 }
-.additional-background {
+.team {
     background-color: var(--additional-background-color);
 }
 
@@ -83,8 +83,8 @@
     color: var(--accent-color);
 }
 
-/* main */
-.headline {
+/* baner */
+.section-headline {
     color: var(--title-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -95,9 +95,13 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
+/* button */
 .button {
     color: var(--title-text-color);
     background-color: var(--accent-color);
+    border-radius: 4px;
+    border: none;
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -108,8 +112,11 @@
     text-align: center;
     letter-spacing: 0.06em;
 }
-.portfolio-button {
+.filters-button .portfolio-button {
     text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    margin: 1px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -125,10 +132,12 @@
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
 }
+
+/* features */
 .hidden {
     font-size: 0;
 }
-.title {
+.features .features-title {
     color: var(--primary-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -138,7 +147,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.text {
+.features .features-text {
     color: var(--secondary-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -147,7 +156,9 @@
     line-height: 24px;
     letter-spacing: 0.03em;
 }
-.heading {
+
+/* what we do */
+.section-heading {
     color: var(--primary-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -157,6 +168,8 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+/* team */
 .team-title {
     color: var(--primary-text-color);
     font-family: Roboto;
@@ -201,9 +214,13 @@
     color: var(--accent-color);
 }
 
-/* portfolio-page*/
+/* portfolio-page */
+.link-list {
+    text-decoration: none;
+}
 .project-title {
     color: var(--primary-text-color);
+    text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -213,6 +230,7 @@
 }
 .product-text {
     color: var(--secondary-text-color);
+    text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
