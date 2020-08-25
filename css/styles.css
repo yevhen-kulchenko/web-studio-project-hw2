@@ -26,8 +26,8 @@ body {
 .logo {
     color: var(--accent-color);
 }
-.logo-header {
-    color: var(--logo-header-color);
+.logo-header,
+.logo-footer {
     text-decoration: none;
     font-family: Raleway;
     font-style: normal;
@@ -36,15 +36,11 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
 }
+.logo-header {
+    color: var(--logo-header-color);
+}
 .logo-footer {
     color: var(--title-text-color);
-    text-decoration: none;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
 }
 
 /* nav */
@@ -124,11 +120,11 @@ body {
     line-height: 26px;
     letter-spacing: 0.03em;
 }
-.portfolio-button.primary {
+.portfolio-button /*.primary*/ {
     color: var(--title-text-color);
     background-color: var(--accent-color);
 }
-.portfolio-button.secondary {
+.portfolio-button /*.secondary*/ {
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
 }
@@ -187,6 +183,10 @@ body {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+}
+.bg-card {
+    background-color: var(--main-background-color);
+    width: 270px;
 }
 
 /* footer*/
